@@ -1,0 +1,83 @@
+
+.wrapper {
+    margin: 4rem auto 0;
+    max-width: 50rem;
+}
+
+.goBack {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    opacity: .5;
+}
+
+.goBack span {
+    margin-left: 8px;
+}
+
+.goBack:hover {
+    text-underline-offset: 4px;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+
+.content {
+    margin-top: 4rem;
+}
+
+.section {
+    margin-top: 2rem;
+}
+
+.section label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.section textarea, .section input {
+    font-size: .95rem;
+    font-family: var(--font-urbanist);
+}
+
+.section input {
+    height: 3rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+
+.section textarea {
+    width: 100%;
+    height: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.editSubmit {
+    margin-left: auto;
+    display: block;
+    margin-top: 1rem;
+    color: #fff;
+    padding: .75rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    background: blue;
+    opacity: .7;
+}
+
+.editSubmit:hover {
+    opacity: 1;
+}
+
+.deleteSubmit {
+    margin-left: auto;
+    display: block;
+    color: red;
+    cursor: pointer;
+}
+
+.deleteSubmit:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
